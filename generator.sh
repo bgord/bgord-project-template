@@ -7,8 +7,7 @@ npm init -y
 ./bgord-scripts/toolbox/setup-eslint.sh
 ./bgord-scripts/toolbox/setup-commitlint.sh
 ./bgord-scripts/toolbox/setup-husky.sh
-npm install -D typescript@4.8.4
-cp ./bgord-scripts/templates/tsconfig.json .
+./bgord-scripts/toolbox/setup-typescript.sh
 mkdir .github
 cp ./bgord-scripts/workflows/deploy-project.yml .github/
 cp ./bgord-scripts/workflows/codeql-analysis.yml .github/

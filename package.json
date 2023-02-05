@@ -26,7 +26,7 @@
     "husky": "^8.0.3",
     "only-allow": "^1.1.1",
     "serve": "^14.1.1",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.3"
   },
   "dependencies": {
     "@bgord/design": "^0.27.48",
@@ -35,5 +35,13 @@
     "react": "npm:@preact/compat@^17.0.3",
     "react-dom": "npm:@preact/compat@^17.0.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgord/bgord-project-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bgord/bgord-project-template/issues"
+  },
+  "homepage": "https://github.com/bgord/bgord-project-template#readme",
   "description": ""
 }
