@@ -8,9 +8,9 @@ npm init -y
 ./bgord-scripts/toolbox/setup-commitlint.sh
 ./bgord-scripts/toolbox/setup-husky.sh
 ./bgord-scripts/toolbox/setup-typescript.sh
-mkdir .github
-cp ./bgord-scripts/workflows/deploy-project.yml .github/
-cp ./bgord-scripts/workflows/codeql-analysis.yml .github/
+mkdir -p .github/workflows
+cp ./bgord-scripts/workflows/deploy-project.yml .github/workflows
+cp ./bgord-scripts/workflows/codeql-analysis.yml .github/workflows
 mkdir scripts
 cp ./bgord-scripts/templates/local-project-start.sh scripts
 cp ./bgord-scripts/templates/staging-project-build.sh scripts
