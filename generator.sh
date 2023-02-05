@@ -7,6 +7,7 @@ npm init -y
 ./bgord-scripts/toolbox/setup-eslint.sh
 ./bgord-scripts/toolbox/setup-commitlint.sh
 ./bgord-scripts/toolbox/setup-husky.sh
+./bgord-scripts/toolbox/setup-purge-css.sh
 ./bgord-scripts/toolbox/setup-typescript.sh
 ./bgord-scripts/toolbox/setup-github-workflows-project.sh
 mkdir scripts
