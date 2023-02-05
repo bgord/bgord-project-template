@@ -25,3 +25,4 @@ npm install react@npm:@preact/compat@17.0.3
 npm install react-dom@npm:@preact/compat@17.0.3
 npm install -D esbuild@0.14.11
 npm install -D serve@14.1.1
+npm install -D gzip-cli@1.2.0
